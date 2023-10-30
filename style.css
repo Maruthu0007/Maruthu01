@@ -1,0 +1,142 @@
+html{
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+:root{
+    --green:#d4fe00;
+
+}
+body{
+    background-color: #08323c;
+    overflow-x: hidden;
+}
+.logo{
+    margin-top: 14px;
+    margin-right: 9px;
+}
+
+#page1{
+    background-color: var(--green);
+}
+nav li{
+   display: inline-block; 
+   text-decoration: none; 
+   list-style-type: none;
+   padding: 30px;
+   font-weight: 600;
+   font-size: large;
+
+}
+#page2{
+    background-color: var(--green);
+}
+.button1{
+    border-radius: 30px;
+    background-color:#08323c;
+    padding: 15px 35px;
+    border-color: none;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+}
+.image1{
+    height: 500px; 
+    border:30px solid #08323c; 
+    border-radius: 40px;
+}
+.head-1{
+    font-size:70px;
+}
+sup{
+    color: #d4fe00;
+}
+.sub-section{
+    background-color: #d4fe00;
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 24px;
+    
+
+
+}
+
+.label1{
+    padding: 5px 0px;
+    font-size: larger;
+}
+input{
+    padding: 15px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    width: 100%;
+    margin: 50px;
+    color: 1px solid #bbbbbb;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #bbbbbb;
+    color: 1px solid #bbbbbb;
+    padding: 15px;
+}
+.para2{
+    padding-top: 30px; 
+    margin-top: 15px;
+}
+.head-4{
+    font-size:70px;
+    font-weight: 700;
+    padding: 0px;
+    display: flex;
+    align-items: center; 
+    border: 2px dashed black;
+    border-radius: 50%;
+    height: 200px;width: 200px; 
+    padding: 30px; 
+    margin:  auto; 
+    text-align: center; 
+    justify-content: center;
+    color: #08323c;
+    /* border: 2px dashed black; */
+    /* border-radius: 100%; */
+
+}
+.rd{
+    object-fit: contain;
+    display: block;
+    width: fit-content;
+}
+.images{
+    padding: 30px;
+}
+section div::-webkit-scrollbar{
+    display:  none;
+}
+.button4{
+    border-radius: 40px;
+    background-color:white;
+    padding: 20px 40px;
+    border-color: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    border: none;
+    opacity: 0.7;
+    
+}
+
+@media (max-width: 992px)
+{
+    .image-res {
+        margin: 250px 0px 100px 200px;
+        overflow-x: hidden;
+    } 
+}
+
+@media (max-width: 768px)
+{
+    .res-head {
+        font-size: 10px;
+    } 
+} 
